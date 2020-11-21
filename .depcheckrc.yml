@@ -5,7 +5,7 @@ ignores:
     "commitizen",
     "eslint-*",
     "git-cz",
-    "typescript"
+    "typescript",
   ]
 ignore-path: .gitignore
 skip-missing: true
