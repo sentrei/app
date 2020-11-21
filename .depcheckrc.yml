@@ -1,0 +1,10 @@
+ignores:
+  [
+    "tailwindcss",
+    "@semantic-release/*",
+    "commitizen",
+    "eslint-*",
+    "git-cz",
+  ]
+ignore-path: .gitignore
+skip-missing: true
