@@ -1,0 +1,7 @@
+name: sentrei.com
+root: ~/ghq/github.com/sentrei/sentrei.com
+attach: true
+windows:
+  - zsh: neofetch
+  - zsh: neofetch
+  - zsh: neofetch
