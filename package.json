@@ -49,6 +49,8 @@
     "react": "^0.0.0-experimental-4ead6b530",
     "react-aria": "^3.1.1",
     "react-dom": "^0.0.0-experimental-4ead6b530",
+    "recoil": "^0.1.2",
+    "swr": "^0.3.9",
     "tailwindcss": "^2.0.1"
   },
   "devDependencies": {
