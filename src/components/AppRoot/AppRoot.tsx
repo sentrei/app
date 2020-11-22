@@ -5,10 +5,13 @@ import { SSRProvider, OverlayProvider } from "react-aria";
 export interface Props {
   children?: ReactNode;
 }
-export const AppRoot: FC = ({ children }: Props) => (
+
+const AppRoot: FC = ({ children }: Props) => (
   <ThemeProvider>
     <SSRProvider>
       <OverlayProvider>{children}</OverlayProvider>
     </SSRProvider>
   </ThemeProvider>
 );
+
+export default AppRoot;
