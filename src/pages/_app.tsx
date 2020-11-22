@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/ban-ts-comment */
 /* eslint-disable react/jsx-props-no-spreading */
 /* eslint-disable @typescript-eslint/restrict-template-expressions */
 
@@ -28,8 +29,9 @@ const CustomApp = ({ Component, pageProps }: AppProps): JSX.Element => {
           },
         }}
       >
-        <AppRoot />
-        <Component {...pageProps} />
+        <AppRoot>
+          <Component {...pageProps} />
+        </AppRoot>
       </SWRConfig>
     </>
   );
