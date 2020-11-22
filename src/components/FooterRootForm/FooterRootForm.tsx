@@ -12,11 +12,11 @@ export default function FooterRootForm(): JSX.Element {
         </label>
         <div className="relative">
           {theme !== undefined && (
+            // eslint-disable-next-line jsx-a11y/no-onchange
             <select
               id="mode"
               className="block w-full py-2 pl-3 pr-10 text-base text-gray-900 bg-white border border-gray-300 rounded-md appearance-none bg-none focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm dark:bg-black dark:text-gray-300 dark:border-gray-600"
               value={theme}
-              onBlur={(e) => setTheme(e.target.value)}
               onChange={(e) => setTheme(e.target.value)}
             >
               <option value="dark">Dark</option>
