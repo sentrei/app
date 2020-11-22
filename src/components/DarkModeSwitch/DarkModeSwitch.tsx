@@ -2,7 +2,6 @@
 /* eslint-disable react/jsx-props-no-spreading */
 
 import { useTheme } from "next-themes";
-import { useMemo } from "react";
 import { useSpring, animated } from "react-spring";
 
 export const defaultProperties = {
@@ -39,48 +38,28 @@ export const defaultProperties = {
   springConfig: { friction: 35, mass: 4, tension: 250 },
 };
 
-export type SVGProps = React.HTMLAttributes<HTMLOrSVGElement>;
-
-export interface Props extends SVGProps {
-  animationProperties?: typeof defaultProperties;
-  moonColor?: string;
-  sunColor?: string;
-}
-
-export default function DarkModeSwitch({
-  animationProperties = defaultProperties,
-  moonColor = "white",
-  sunColor = "black",
-  ...rest
-}: Props): JSX.Element {
+export default function DarkModeSwitch(): JSX.Element {
   const { resolvedTheme, setTheme } = useTheme();
 
-  const properties = useMemo(() => {
-    if (animationProperties !== defaultProperties) {
-      return Object.assign(defaultProperties, animationProperties);
-    }
-    return animationProperties;
-  }, [animationProperties]);
-
-  const { circle, svg, lines, mask } = properties[
+  const { circle, svg, lines, mask } = defaultProperties[
     resolvedTheme === "dark" ? "light" : "dark"
   ];
 
   const svgContainerProps = useSpring({
     ...svg,
-    config: animationProperties.springConfig,
+    config: defaultProperties.springConfig,
   });
   const centerCircleProps = useSpring({
     ...circle,
-    config: animationProperties.springConfig,
+    config: defaultProperties.springConfig,
   });
   const maskedCircleProps = useSpring({
     ...mask,
-    config: animationProperties.springConfig,
+    config: defaultProperties.springConfig,
   });
   const linesProps = useSpring({
     ...lines,
-    config: animationProperties.springConfig,
+    config: defaultProperties.springConfig,
   });
 
   const toggle = () => {
@@ -94,7 +73,7 @@ export default function DarkModeSwitch({
       height={30}
       viewBox="0 0 24 24"
       className="cursor-pointer"
-      color={resolvedTheme === "dark" ? moonColor : sunColor}
+      color={resolvedTheme === "dark" ? "white" : "black"}
       fill="none"
       strokeWidth="2"
       strokeLinecap="round"
@@ -105,7 +84,6 @@ export default function DarkModeSwitch({
         ...svgContainerProps,
       }}
       onClick={toggle}
-      {...rest}
     >
       <mask id="myMask2">
         <rect x="0" y="0" width="100%" height="100%" fill="white" />
@@ -119,7 +97,7 @@ export default function DarkModeSwitch({
       <animated.circle
         cx="12"
         cy="12"
-        fill={resolvedTheme === "dark" ? moonColor : sunColor}
+        fill={resolvedTheme === "dark" ? "white" : "black"}
         // @ts-ignore
         style={centerCircleProps}
         mask="url(#myMask2)"
