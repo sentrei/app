@@ -1,4 +1,8 @@
+import { useTheme } from "next-themes";
+
 export default function FooterRootForm(): JSX.Element {
+  const { theme, setTheme } = useTheme();
+
   return (
     <form className="sm:max-w-xs sm:mt-4 mt-4">
       <fieldset className="w-full">
@@ -10,10 +14,13 @@ export default function FooterRootForm(): JSX.Element {
           <select
             id="mode"
             className="bg-none focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm block w-full py-2 pl-3 pr-10 text-base text-gray-900 bg-white border border-gray-300 rounded-md appearance-none"
+            value={theme}
+            onBlur={(e) => setTheme(e.target.value)}
+            onChange={(e) => setTheme(e.target.value)}
           >
-            <option selected>System</option>
-            <option>Dark</option>
-            <option>Light</option>
+            <option value="dark">Dark</option>
+            <option value="light">Light</option>
+            <option value="system">System</option>
           </select>
           <div className="absolute inset-y-0 right-0 flex items-center px-2 pointer-events-none">
             <svg
