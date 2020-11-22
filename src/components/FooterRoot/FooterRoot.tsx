@@ -2,18 +2,18 @@ import FooterRootForm from "@/components/FooterRootForm";
 
 export default function FooterRoot(): JSX.Element {
   return (
-    <footer className="border-t-2 border-gray-100">
-      <div className="md:flex-row flex flex-col items-center justify-between max-w-3xl px-12 pt-6 pb-12 mx-auto">
-        <p className="md:text-left mt-4 text-base font-medium text-center text-gray-400">
+    <footer className="bg-white border-t-2 border-gray-100 dark:border-gray-700 dark:bg-black">
+      <div className="flex flex-col items-center justify-between max-w-3xl px-12 pt-6 pb-12 mx-auto md:flex-row">
+        <p className="mt-4 text-base font-medium text-center text-gray-400 md:text-left">
           &copy; 2020 Sentrei, Inc. All rights reserved.
         </p>
         <FooterRootForm />
-        <div className="md:order-2 flex mt-4 space-x-6">
+        <div className="flex mt-4 space-x-6 md:order-2">
           <a
             href="https://twitter.com/sentrei_com"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-gray-500 text-gray-400"
+            className="text-gray-400 hover:text-gray-500"
           >
             <span className="sr-only">Twitter</span>
             <svg
@@ -29,7 +29,7 @@ export default function FooterRoot(): JSX.Element {
             href="https://github.com/sentrei"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-gray-500 text-gray-400"
+            className="text-gray-400 hover:text-gray-500"
           >
             <span className="sr-only">GitHub</span>
             <svg

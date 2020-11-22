@@ -12,7 +12,7 @@ export default function ImageLogo(): JSX.Element {
           width={55}
           layout="fixed"
           alt="Logo"
-          className="sm:h-10 w-auto h-12"
+          className="w-auto h-12 sm:h-10"
         />
       </a>
     </Link>
