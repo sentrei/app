@@ -1,121 +1,37 @@
-/* eslint-disable @typescript-eslint/ban-ts-comment */
-/* eslint-disable react/jsx-props-no-spreading */
-
+import clsx from "clsx";
 import { useTheme } from "next-themes";
-import { useSpring, animated } from "react-spring";
-
-export const defaultProperties = {
-  dark: {
-    circle: {
-      r: 9,
-    },
-    lines: {
-      opacity: 0,
-    },
-    mask: {
-      cx: "50%",
-      cy: "23%",
-    },
-    svg: {
-      transform: "rotate(40deg)",
-    },
-  },
-  light: {
-    circle: {
-      r: 5,
-    },
-    lines: {
-      opacity: 1,
-    },
-    mask: {
-      cx: "100%",
-      cy: 0,
-    },
-    svg: {
-      transform: "rotate(90deg)",
-    },
-  },
-  springConfig: { friction: 35, mass: 4, tension: 250 },
-};
 
 export default function DarkModeSwitch(): JSX.Element {
   const { resolvedTheme, setTheme } = useTheme();
-
-  const { circle, svg, lines, mask } = defaultProperties[
-    resolvedTheme === "dark" ? "light" : "dark"
-  ];
-
-  const svgContainerProps = useSpring({
-    ...svg,
-    config: defaultProperties.springConfig,
-  });
-  const centerCircleProps = useSpring({
-    ...circle,
-    config: defaultProperties.springConfig,
-  });
-  const maskedCircleProps = useSpring({
-    ...mask,
-    config: defaultProperties.springConfig,
-  });
-  const linesProps = useSpring({
-    ...lines,
-    config: defaultProperties.springConfig,
-  });
 
   const toggle = () => {
     setTheme(resolvedTheme === "dark" ? "light" : "dark");
   };
 
   return (
-    <animated.svg
-      xmlns="http://www.w3.org/2000/svg"
-      width={30}
-      height={30}
+    <svg
+      className={clsx(
+        "w-10 h-10 cursor-pointer",
+        resolvedTheme === "dark" && "text-gray-300",
+        resolvedTheme === "light" && "text-gray-700"
+      )}
+      fill={resolvedTheme === "dark" ? "none" : undefined}
+      stroke={resolvedTheme === "dark" ? "currentColor" : undefined}
       viewBox="0 0 24 24"
-      className="transition cursor-pointer"
-      color={resolvedTheme === "dark" ? "white" : "black"}
-      fill="none"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      stroke="currentColor"
-      // @ts-ignore
-      style={{
-        ...svgContainerProps,
-      }}
+      xmlns="http://www.w3.org/2000/svg"
       onClick={toggle}
     >
-      <mask id="myMask2">
-        <rect x="0" y="0" width="100%" height="100%" fill="white" />
-        <animated.circle
-          // @ts-ignore
-          style={maskedCircleProps}
-          r="9"
-          fill="black"
+      {resolvedTheme === "dark" && (
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={2}
+          d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"
         />
-      </mask>
-      <animated.circle
-        cx="12"
-        cy="12"
-        fill={resolvedTheme === "dark" ? "white" : "black"}
-        // @ts-ignore
-        style={centerCircleProps}
-        mask="url(#myMask2)"
-      />
-      <animated.g
-        stroke="currentColor"
-        // @ts-ignore
-        style={linesProps}
-      >
-        <line x1="12" y1="1" x2="12" y2="3" />
-        <line x1="12" y1="21" x2="12" y2="23" />
-        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
-        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
-        <line x1="1" y1="12" x2="3" y2="12" />
-        <line x1="21" y1="12" x2="23" y2="12" />
-        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
-        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
-      </animated.g>
-    </animated.svg>
+      )}
+      {resolvedTheme === "light" && (
+        <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" />
+      )}
+    </svg>
   );
 }
