@@ -1,6 +1,7 @@
 ignores:
   [
     "autoprefixer",
+    "postcss",
     "tailwindcss",
     "@next/*",
     "@semantic-release/*",
