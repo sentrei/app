@@ -1,8 +1,6 @@
 import dynamic from "next/dynamic";
 
-const ImageLogo = dynamic(() => import("@/components/ImageLogo"), {
-  ssr: false,
-});
+import ImageLogo from "@/components/ImageLogo";
 
 const DarkModeSwitch = dynamic(() => import("@/components/DarkModeSwitch"), {
   ssr: false,
