@@ -1,3 +1,4 @@
+import FooterRoot from "@/components/FooterRoot";
 import HeaderRoot from "@/components/HeaderRoot";
 import LandingHero from "@/components/LandingHero";
 
@@ -6,6 +7,7 @@ export default function LandingScreen(): JSX.Element {
     <>
       <HeaderRoot />
       <LandingHero />
+      <FooterRoot />
     </>
   );
 }
