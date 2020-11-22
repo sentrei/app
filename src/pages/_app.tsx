@@ -5,6 +5,8 @@ import { AppProps } from "next/app";
 import { RecoilRoot } from "recoil";
 import { SWRConfig } from "swr";
 
+import AppRoot from "@/components/AppRoot";
+
 const CustomApp = ({ Component, pageProps }: AppProps): JSX.Element => {
   return (
     <>
@@ -25,6 +27,7 @@ const CustomApp = ({ Component, pageProps }: AppProps): JSX.Element => {
           },
         }}
       >
+        <AppRoot />
         <Component {...pageProps} />
       </SWRConfig>
     </>
