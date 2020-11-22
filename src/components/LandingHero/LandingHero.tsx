@@ -81,12 +81,11 @@ export default function LandingHero(): JSX.Element {
             </span>
           </h2>
           <p className="sm:mt-6 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-8 md:text-xl md:max-w-3xl lg:max-w-4xl mt-3 text-base text-gray-500">
-            Sentrei combines the cutting-edge serverless technology with a
-            global database{" "}
-            <span className="bg-clip-text bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400 text-transparent">
-              infrastructure
-            </span>
-            .
+            Sentrei combines the{" "}
+            <span className="bg-clip-text bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 text-transparent">
+              cutting-edge
+            </span>{" "}
+            serverless technology with a global database infrastructure.
             <br className="lg:block hidden" /> We abstract away the boilerplate
             to provide the best{" "}
             <span className="bg-clip-text bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 text-transparent">
@@ -95,7 +94,7 @@ export default function LandingHero(): JSX.Element {
             .
             <br className="lg:block hidden" /> We aim to do much better, how
             developers deserve in{" "}
-            <span className="bg-clip-text bg-gradient-to-r from-green-400 to-blue-500 text-transparent">
+            <span className="bg-clip-text bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400 text-transparent">
               2020
             </span>
             .
