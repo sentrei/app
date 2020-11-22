@@ -7,7 +7,7 @@ export interface Props {
 }
 
 const AppRoot: FC = ({ children }: Props) => (
-  <ThemeProvider>
+  <ThemeProvider defaultTheme="system">
     <SSRProvider>
       <OverlayProvider>{children}</OverlayProvider>
     </SSRProvider>
