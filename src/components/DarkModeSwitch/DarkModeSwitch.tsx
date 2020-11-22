@@ -72,7 +72,7 @@ export default function DarkModeSwitch(): JSX.Element {
       width={30}
       height={30}
       viewBox="0 0 24 24"
-      className="cursor-pointer"
+      className="transition cursor-pointer"
       color={resolvedTheme === "dark" ? "white" : "black"}
       fill="none"
       strokeWidth="2"
