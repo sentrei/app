@@ -1,4 +1,4 @@
-export default function LandingHeroForm() {
+export default function LandingHeroForm(): JSX.Element {
   return (
     <form action="#" method="POST" className="mt-3 sm:flex">
       {/* eslint-disable-next-line jsx-a11y/label-has-associated-control */}
