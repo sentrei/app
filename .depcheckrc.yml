@@ -2,7 +2,9 @@ ignores:
   [
     "autoprefixer",
     "tailwindcss",
+    "@next/*",
     "@semantic-release/*",
+    "@typescript-eslint/*",
     "commitizen",
     "eslint-*",
     "git-cz",
