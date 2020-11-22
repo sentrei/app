@@ -1,10 +1,5 @@
-import dynamic from "next/dynamic";
-
+import DarkModeSwitch from "@/components/DarkModeSwitch";
 import ImageLogo from "@/components/ImageLogo";
-
-const DarkModeSwitch = dynamic(() => import("@/components/DarkModeSwitch"), {
-  ssr: false,
-});
 
 export default function HeaderRoot(): JSX.Element {
   return (
