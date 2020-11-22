@@ -90,8 +90,8 @@ export default function HeaderRootSwitch({
   return (
     <animated.svg
       xmlns="http://www.w3.org/2000/svg"
-      width={24}
-      height={24}
+      width={30}
+      height={30}
       viewBox="0 0 24 24"
       className="cursor-pointer"
       color={resolvedTheme === "dark" ? moonColor : sunColor}
