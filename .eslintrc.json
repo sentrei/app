@@ -79,9 +79,9 @@
         "sort-keys": [
           "error",
           "asc",
-          {"caseSensitive": true, "natural": true, "minKeys": 3}
+          { "caseSensitive": true, "natural": true, "minKeys": 3 }
         ],
-        "sort-vars": ["error", {"ignoreCase": false}]
+        "sort-vars": ["error", { "ignoreCase": false }]
       },
       "settings": {
         "import/resolver": {
