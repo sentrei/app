@@ -4,12 +4,9 @@ const ImageLogo = dynamic(() => import("@/components/ImageLogo"), {
   ssr: false,
 });
 
-const HeaderRootSwitch = dynamic(
-  () => import("@/components/HeaderRootSwitch"),
-  {
-    ssr: false,
-  }
-);
+const DarkModeSwitch = dynamic(() => import("@/components/DarkModeSwitch"), {
+  ssr: false,
+});
 
 export default function HeaderRoot(): JSX.Element {
   return (
@@ -21,7 +18,7 @@ export default function HeaderRoot(): JSX.Element {
               <ImageLogo />
             </div>
             <div className="items-center justify-end hidden space-x-8 md:flex md:flex-1 lg:w-0">
-              <HeaderRootSwitch />
+              <DarkModeSwitch />
             </div>
           </div>
         </div>

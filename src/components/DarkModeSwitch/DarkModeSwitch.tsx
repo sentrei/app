@@ -47,7 +47,7 @@ export interface Props extends SVGProps {
   sunColor?: string;
 }
 
-export default function HeaderRootSwitch({
+export default function DarkModeSwitch({
   animationProperties = defaultProperties,
   moonColor = "white",
   sunColor = "black",

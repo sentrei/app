@@ -1,4 +1,4 @@
-import FooterRootForm from "@/components/FooterRootForm";
+import DarkModeForm from "@/components/DarkModeForm";
 
 export default function FooterRoot(): JSX.Element {
   return (
@@ -7,7 +7,7 @@ export default function FooterRoot(): JSX.Element {
         <p className="mt-4 text-base font-medium text-center text-gray-400 md:text-left">
           &copy; 2020 Sentrei, Inc. All rights reserved.
         </p>
-        <FooterRootForm />
+        <DarkModeForm />
         <div className="flex mt-4 space-x-6 md:order-2">
           <a
             href="https://twitter.com/sentrei_com"

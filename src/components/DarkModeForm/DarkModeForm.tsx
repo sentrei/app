@@ -1,6 +1,6 @@
 import { useTheme } from "next-themes";
 
-export default function FooterRootForm(): JSX.Element {
+export default function DarkModeForm(): JSX.Element {
   const { theme, setTheme } = useTheme();
 
   return (
