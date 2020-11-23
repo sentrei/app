@@ -69,7 +69,7 @@ export default function LandingGlobe(): JSX.Element {
                     filterUnits="objectBoundingBox"
                     id="globe-ill-a"
                   >
-                    {/* <feOffset
+                    <feOffset
                       dy="4"
                       in="SourceAlpha"
                       result="shadowOffsetOuter1"
@@ -82,7 +82,7 @@ export default function LandingGlobe(): JSX.Element {
                     <feColorMatrix
                       values="0 0 0 0 0 0 0 0 0 0.439215686 0 0 0 0 0.956862745 0 0 0 0.32 0"
                       in="shadowBlurOuter1"
-                    /> */}
+                    />
                   </filter>
                   <filter
                     x="-83.3%"
@@ -92,20 +92,20 @@ export default function LandingGlobe(): JSX.Element {
                     filterUnits="objectBoundingBox"
                     id="globe-ill-c"
                   >
-                    {/* <feOffset
+                    <feOffset
                       dy="4"
                       in="SourceAlpha"
                       result="shadowOffsetOuter1"
-                    /> */}
-                    {/* <feGaussianBlur
+                    />
+                    <feGaussianBlur
                       stdDeviation="6"
                       in="shadowOffsetOuter1"
                       result="shadowBlurOuter1"
-                    /> */}
-                    {/* <feColorMatrix
+                    />
+                    <feColorMatrix
                       values="0 0 0 0 0 0 0 0 0 0.439215686 0 0 0 0 0.956862745 0 0 0 0.32 0"
                       in="shadowBlurOuter1"
-                    /> */}
+                    />
                   </filter>
                   <filter
                     x="-7.3%"
@@ -138,13 +138,13 @@ export default function LandingGlobe(): JSX.Element {
                     y2="100%"
                     id="globe-ill-f"
                   >
-                    <stop stopColor="#DB2777" stopOpacity="0" offset="0%" />
+                    <stop stopColor="#4F46E5" stopOpacity="0" offset="0%" />
                     <stop
-                      stopColor="#DB2777"
+                      stopColor="#4F46E5"
                       stopOpacity=".64"
                       offset="52.449%"
                     />
-                    <stop stopColor="#DB2777" stopOpacity="0" offset="100%" />
+                    <stop stopColor="#4F46E5" stopOpacity="0" offset="100%" />
                   </linearGradient>
                 </defs>
                 <g
@@ -157,16 +157,16 @@ export default function LandingGlobe(): JSX.Element {
                     filter="url(#globe-ill-a)"
                     xlinkHref="#globe-ill-b"
                   />
-                  <use fill="#DB2777" xlinkHref="#globe-ill-b" />
+                  <use fill="#2563EB" xlinkHref="#globe-ill-b" />
                   <use
                     fill="#000"
                     filter="url(#globe-ill-c)"
                     xlinkHref="#globe-ill-d"
                   />
-                  <use fill="#DB2777" xlinkHref="#globe-ill-d" />
+                  <use fill="#2563EB" xlinkHref="#globe-ill-d" />
                   <ellipse
                     fillOpacity=".32"
-                    fill="#DB2777"
+                    fill="#4F46E5"
                     cx="293"
                     cy="142.303"
                     rx="8"
@@ -174,7 +174,7 @@ export default function LandingGlobe(): JSX.Element {
                   />
                   <ellipse
                     fillOpacity=".64"
-                    fill="#DB2777"
+                    fill="#4F46E5"
                     cx="250"
                     cy="187.083"
                     rx="6"
@@ -182,14 +182,14 @@ export default function LandingGlobe(): JSX.Element {
                   />
                   <ellipse
                     fillOpacity=".64"
-                    fill="#DB2777"
+                    fill="#4F46E5"
                     cx="13"
                     cy="233.811"
                     rx="2"
                     ry="1.947"
                   />
                   <ellipse
-                    fill="#DB2777"
+                    fill="#4F46E5"
                     cx="29"
                     cy="114.072"
                     rx="2"
@@ -218,7 +218,7 @@ export default function LandingGlobe(): JSX.Element {
                 style={{ left: "50%", top: "45%", width: "12%" }}
                 xmlns="http://www.w3.org/2000/svg"
               >
-                <g className="text-pink-600 fill-current">
+                <g className="text-indigo-600 fill-current">
                   <circle
                     className={clsx(Pulse.pulse, Pulse.pulseMini, Pulse.pulse1)}
                     cx="24"
@@ -242,7 +242,7 @@ export default function LandingGlobe(): JSX.Element {
                 style={{ left: "46%", top: "19%", width: "12%" }}
                 xmlns="http://www.w3.org/2000/svg"
               >
-                <g className="text-pink-600 fill-current">
+                <g className="text-indigo-600 fill-current">
                   <circle
                     className={clsx(Pulse.pulse, Pulse.pulseMini)}
                     cx="24"
@@ -284,7 +284,7 @@ export default function LandingGlobe(): JSX.Element {
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <circle
-                  className="text-pink-600 fill-current"
+                  className="text-indigo-600 fill-current"
                   cx="32"
                   cy="32"
                   r="32"
