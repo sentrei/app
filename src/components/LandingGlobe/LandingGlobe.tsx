@@ -10,7 +10,11 @@ export default function LandingGlobe(): JSX.Element {
         <div className="py-12 md:py-20">
           <div className="max-w-3xl pb-12 mx-auto text-center md:pb-16">
             <h1 className="mb-4 text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl dark:text-gray-200">
-              Deploy globally in seconds
+              Deploy{" "}
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-700 via-blue-800 to-gray-900">
+                globally{" "}
+              </span>
+              in seconds
             </h1>
           </div>
           <div className="flex flex-col items-center pt-3">
