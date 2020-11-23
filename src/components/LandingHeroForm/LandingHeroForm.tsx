@@ -1,6 +1,19 @@
+import { useState, ChangeEvent, FormEvent } from "react";
+
 export default function LandingHeroForm(): JSX.Element {
+  const [email, setEmail] = useState<string>("");
+
+  const handleChange = (event: ChangeEvent<HTMLInputElement>) => {
+    setEmail(event.target.value);
+  };
+
+  const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    console.log(email);
+  };
+
   return (
-    <form action="#" method="POST" className="mt-3 sm:flex">
+    <form className="mt-3 sm:flex" onSubmit={handleSubmit}>
       {/* eslint-disable-next-line jsx-a11y/label-has-associated-control */}
       <label htmlFor="email" className="sr-only">
         Email
@@ -8,8 +21,10 @@ export default function LandingHeroForm(): JSX.Element {
       <input
         type="text"
         id="email"
-        className="block w-full py-3 text-base placeholder-gray-500 bg-white border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:flex-1 dark:bg-black"
+        value={email}
+        className="block w-full py-3 text-base placeholder-gray-500 bg-white border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:flex-1 dark:bg-black dark:text-gray-300"
         placeholder="Enter your email"
+        onChange={handleChange}
       />
       <button
         type="submit"
