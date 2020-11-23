@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-floating-promises */
+
 import { useState, ChangeEvent, FormEvent } from "react";
 
 export default function LandingHeroForm(): JSX.Element {
@@ -10,6 +12,24 @@ export default function LandingHeroForm(): JSX.Element {
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     console.log(email);
+    fetch(
+      "https://docs.google.com/forms/u/1/d/e/1FAIpQLSdOH0zzhLXaOICJgJZ0DjXBXplWMG3h6iwnq95_3kJBEZ8AGw/formResponse",
+      {
+        body: `entry.1490097005=${email}`,
+        credentials: "include",
+        headers: {
+          "Access-Control-Allow-Methods": "POST",
+          "Access-Control-Allow-Origin": "*",
+          "content-type": "application/x-www-form-urlencoded",
+        },
+        method: "POST",
+        mode: "no-cors",
+      }
+    )
+      .catch((err) => {
+        console.error(err);
+      })
+      .then((res) => console.log(res));
   };
 
   return (
