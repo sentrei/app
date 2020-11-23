@@ -8,10 +8,12 @@ import { SWRConfig } from "swr";
 
 import "@/styles/index.css";
 import AppRoot from "@/components/AppRoot";
+import SeoRoot from "@/components/SeoRoot";
 
 const CustomApp = ({ Component, pageProps }: AppProps): JSX.Element => {
   return (
     <>
+      <SeoRoot />
       <RecoilRoot />
       <SWRConfig
         value={{
