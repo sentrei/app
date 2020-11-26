@@ -6,7 +6,7 @@ export default function LandingMission(): JSX.Element {
           Our mission
         </h2>
         <p className="mt-2 text-3xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-4xl dark:text-gray-200">
-          Accelerate the transition to the{" "}
+          Accelerating the transition to the{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-300 via-blue-500 to-purple-600">
             edge
           </span>
