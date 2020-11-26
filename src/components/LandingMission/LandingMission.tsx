@@ -13,7 +13,7 @@ export default function LandingMission(): JSX.Element {
         </p>
         <p className="max-w-3xl mt-4 text-xl text-gray-500 lg:mx-auto dark:text-gray-400">
           We believe the future lies in the edge. We want to provide an instant
-          backend infrastructure that lives near you.
+          backend infrastructure that lives near everyone in the world.
         </p>
       </div>
       <div className="max-w-xl px-4 mx-auto sm:px-6 lg:max-w-7xl lg:px-8">
