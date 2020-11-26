@@ -19,7 +19,7 @@ export default function LandingGlobe(): JSX.Element {
               </span>
               in seconds{" "}
             </p>
-            <p className="max-w-2xl mt-4 text-xl text-gray-500 lg:mx-auto dark:text-gray-400">
+            <p className="max-w-3xl mt-4 text-xl text-gray-500 lg:mx-auto dark:text-gray-400">
               We utilize the cutting-edge serverless technology with{" "}
               <a
                 className="underline"
