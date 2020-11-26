@@ -13,8 +13,8 @@ export default function LandingScreen(): JSX.Element {
       <SeoLanding title="Sentrei" />
       <HeaderRoot />
       <LandingHero />
-      <LandingGlobe />
       <LandingMission />
+      <LandingGlobe />
       <LandingStats />
       <LandingNewsletter />
       <FooterRoot />

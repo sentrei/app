@@ -5,7 +5,7 @@ import Pulse from "@/styles/pulse.module.css";
 
 export default function LandingGlobe(): JSX.Element {
   return (
-    <section className="overflow-hidden">
+    <section className="overflow-hidden bg-gray-100 dark:bg-black">
       <div className="max-w-6xl px-4 mx-auto sm:px-6">
         <div className="py-12 md:py-20">
           <div className="pb-12 sm:text-left md:text-center">
