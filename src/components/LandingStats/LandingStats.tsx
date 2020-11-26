@@ -8,7 +8,7 @@ export default function LandingStats(): JSX.Element {
           </h2>
           <p className="mt-2 text-3xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-4xl dark:text-gray-200">
             Setting the{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 via-green-200 to-yellow-300">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500">
               standard
             </span>
           </p>
