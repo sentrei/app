@@ -8,14 +8,38 @@ export default function LandingGlobe(): JSX.Element {
     <section className="overflow-hidden">
       <div className="max-w-6xl px-4 mx-auto sm:px-6">
         <div className="py-12 md:py-20">
-          <div className="max-w-3xl pb-12 mx-auto text-center md:pb-16">
-            <h1 className="mb-4 text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl dark:text-gray-200">
+          <div className="pb-12 sm:text-left md:text-center">
+            <h2 className="text-base font-semibold tracking-wide text-indigo-600 uppercase">
+              Global Infrastructure
+            </h2>
+            <p className="mt-2 text-3xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-4xl">
               Deploy{" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-200 via-green-300 to-blue-500">
                 globally{" "}
               </span>
-              in seconds
-            </h1>
+              in seconds{" "}
+            </p>
+            <p className="max-w-2xl mt-4 text-xl text-gray-500 lg:mx-auto">
+              We utilize the cutting-edge serverless technology with{" "}
+              <a
+                className="underline"
+                href="https://workers.cloudflare.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Cloudflare Workers
+              </a>{" "}
+              and a global database infrastructure with{" "}
+              <a
+                className="underline"
+                href="https://aws.amazon.com/rds/aurora/global-database/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Amazon Aurora
+              </a>{" "}
+              to deploy your entire stack in seconds.
+            </p>
           </div>
           <div className="flex flex-col items-center pt-3">
             <div className="relative">
