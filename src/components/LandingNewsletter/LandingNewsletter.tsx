@@ -19,7 +19,7 @@ export default function LandingNewsletter(): JSX.Element {
 
   return (
     <section className="bg-white dark:bg-black">
-      <div className="px-4 py-12 mx-auto max-w-7xl sm:px-6 lg:py-16 lg:px-8">
+      <div className="px-4 pt-6 pb-12 mx-auto max-w-7xl sm:px-6 lg:py-16 lg:px-8">
         <div className="px-6 py-6 rounded-lg bg-gradient-to-r from-indigo-400 to-purple-400 md:py-12 md:px-12 lg:py-16 lg:px-16 xl:flex xl:items-center">
           <div className="xl:w-0 xl:flex-1">
             <h2 className="text-2xl font-extrabold tracking-tight text-white sm:text-3xl dark:text-gray-200">

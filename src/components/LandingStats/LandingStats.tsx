@@ -19,7 +19,7 @@ export default function LandingStats(): JSX.Element {
           </p>
         </div>
       </div>
-      <div className="mt-10 sm:pb-16">
+      <div className="mt-10">
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto">
             <dl className="rounded-lg shadow-xl sm:grid sm:grid-cols-3">
