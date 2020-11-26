@@ -42,7 +42,7 @@ export default function LandingMission(): JSX.Element {
               </div>
             </div>
             <div className="ml-4">
-              <dt className="text-lg font-medium leading-6 text-gray-900">
+              <dt className="text-lg font-medium leading-6 text-gray-900 dark:text-gray-300">
                 Scale infinitely
               </dt>
               <dd className="mt-2 text-base text-gray-500">
@@ -72,7 +72,7 @@ export default function LandingMission(): JSX.Element {
               </div>
             </div>
             <div className="ml-4">
-              <dt className="text-lg font-medium leading-6 text-gray-900">
+              <dt className="text-lg font-medium leading-6 text-gray-900 dark:text-gray-300">
                 No hidden fees
               </dt>
               <dd className="mt-2 text-base text-gray-500">
@@ -102,7 +102,7 @@ export default function LandingMission(): JSX.Element {
               </div>
             </div>
             <div className="ml-4">
-              <dt className="text-lg font-medium leading-6 text-gray-900">
+              <dt className="text-lg font-medium leading-6 text-gray-900 dark:text-gray-300">
                 Blazing fast
               </dt>
               <dd className="mt-2 text-base text-gray-500">
@@ -126,7 +126,7 @@ export default function LandingMission(): JSX.Element {
               </div>
             </div>
             <div className="ml-4">
-              <dt className="text-lg font-medium leading-6 text-gray-900">
+              <dt className="text-lg font-medium leading-6 text-gray-900 dark:text-gray-300">
                 Dedicated analytics
               </dt>
               <dd className="mt-2 text-base text-gray-500">
@@ -154,7 +154,7 @@ export default function LandingMission(): JSX.Element {
               </div>
             </div>
             <div className="ml-4">
-              <dt className="text-lg font-medium leading-6 text-gray-900">
+              <dt className="text-lg font-medium leading-6 text-gray-900 dark:text-gray-300">
                 Built-in authentication
               </dt>
               <dd className="mt-2 text-base text-gray-500">
@@ -180,7 +180,7 @@ export default function LandingMission(): JSX.Element {
               </div>
             </div>
             <div className="ml-4">
-              <dt className="text-lg font-medium leading-6 text-gray-900">
+              <dt className="text-lg font-medium leading-6 text-gray-900 dark:text-gray-300">
                 Distributed database
               </dt>
               <dd className="mt-2 text-base text-gray-500">
