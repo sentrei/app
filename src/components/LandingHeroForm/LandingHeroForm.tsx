@@ -26,6 +26,7 @@ export default function LandingHeroForm(): JSX.Element {
         Email
       </label>
       <input
+        required
         type="text"
         id="email"
         value={email}
