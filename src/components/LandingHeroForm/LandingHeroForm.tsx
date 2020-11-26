@@ -35,7 +35,7 @@ export default function LandingHeroForm(): JSX.Element {
       />
       <button
         type="submit"
-        className="flex items-center justify-center w-full px-6 py-3 mt-3 text-base font-medium text-white bg-indigo-500 border border-transparent rounded-md shadow-sm hover:bg-indigo-400 hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:mt-0 sm:ml-3 sm:flex-shrink-0 sm:inline-flex sm:items-center sm:w-auto dark:hover:bg-gray-600"
+        className="flex items-center justify-center w-full px-6 py-3 mt-3 text-base font-medium text-white bg-indigo-500 border border-transparent rounded-md shadow-sm hover:bg-indigo-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:mt-0 sm:ml-3 sm:flex-shrink-0 sm:inline-flex sm:items-center sm:w-auto dark:hover:bg-gray-600"
       >
         Notify me
         <svg
