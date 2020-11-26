@@ -1,4 +1,20 @@
+import { useState, ChangeEvent, FormEvent } from "react";
+
+import { postNewsletter } from "@/utils";
+
 export default function LandingNewsletter(): JSX.Element {
+  const [email, setEmail] = useState<string>("");
+
+  const handleChange = (event: ChangeEvent<HTMLInputElement>) => {
+    setEmail(event.target.value);
+  };
+
+  const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    console.log(email);
+    postNewsletter(email);
+  };
+
   return (
     <section className="bg-white dark:bg-black">
       <div className="px-4 py-12 mx-auto max-w-7xl sm:px-6 lg:py-16 lg:px-8">
@@ -12,17 +28,19 @@ export default function LandingNewsletter(): JSX.Element {
             </p>
           </div>
           <div className="mt-8 sm:w-full sm:max-w-md xl:mt-0 xl:ml-8">
-            <form className="sm:flex">
+            <form className="sm:flex" onSubmit={handleSubmit}>
               {/* eslint-disable-next-line jsx-a11y/label-has-associated-control */}
-              <label htmlFor="emailAddress" className="sr-only">
+              <label htmlFor="email" className="sr-only">
                 Email address
               </label>
               <input
                 required
-                id="emailAddress"
+                id="email"
                 type="email"
+                value={email}
                 className="w-full px-5 py-3 text-black placeholder-gray-500 bg-white border-white rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-indigo-700 focus:ring-white dark:bg-gray-700 dark:border-gray-500 dark:placeholder-gray-300 dark:text-gray-100"
                 placeholder="Enter your email"
+                onChange={handleChange}
               />
               <button
                 type="submit"
