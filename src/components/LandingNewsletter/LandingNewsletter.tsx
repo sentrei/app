@@ -12,7 +12,9 @@ export default function LandingNewsletter(): JSX.Element {
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     console.log(email);
-    postNewsletter(email);
+    if (email) {
+      postNewsletter(email);
+    }
   };
 
   return (
