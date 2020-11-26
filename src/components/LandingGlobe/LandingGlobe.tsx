@@ -12,14 +12,14 @@ export default function LandingGlobe(): JSX.Element {
             <h2 className="text-base font-semibold tracking-wide text-indigo-600 uppercase">
               Global Infrastructure
             </h2>
-            <p className="mt-2 text-3xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-4xl">
+            <p className="mt-2 text-3xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-4xl dark:text-gray-200">
               Deploy{" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-200 via-green-300 to-blue-500">
                 globally{" "}
               </span>
               in seconds{" "}
             </p>
-            <p className="max-w-2xl mt-4 text-xl text-gray-500 lg:mx-auto">
+            <p className="max-w-2xl mt-4 text-xl text-gray-500 lg:mx-auto dark:text-gray-400">
               We utilize the cutting-edge serverless technology with{" "}
               <a
                 className="underline"
