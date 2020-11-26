@@ -1,20 +1,23 @@
 export default function LandingMission(): JSX.Element {
   return (
     <div className="py-12 bg-white dark:bg-black">
-      <div className="pb-12 sm:text-left md:text-center">
-        <h2 className="text-base font-semibold tracking-wide text-indigo-600 uppercase">
-          Our mission
-        </h2>
-        <p className="mt-2 text-3xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-4xl dark:text-gray-200">
-          Accelerating the transition to the{" "}
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-300 via-blue-500 to-purple-600">
-            edge
-          </span>
-        </p>
-        <p className="max-w-3xl mt-4 text-xl text-gray-500 lg:mx-auto dark:text-gray-400">
-          We believe the future lies in the edge. We want to provide an instant
-          backend infrastructure that lives near everyone in the world.
-        </p>
+      <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <div className="pb-12 sm:text-left md:text-center">
+          <h2 className="text-base font-semibold tracking-wide text-indigo-600 uppercase">
+            Our mission
+          </h2>
+          <p className="mt-2 text-3xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-4xl dark:text-gray-200">
+            Accelerating the transition to the{" "}
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-300 via-blue-500 to-purple-600">
+              edge
+            </span>
+          </p>
+          <p className="max-w-3xl mt-4 text-xl text-gray-500 lg:mx-auto dark:text-gray-400">
+            We believe the future lies in the edge. We want to provide an
+            instant backend infrastructure that lives near everyone in the
+            world.
+          </p>
+        </div>
       </div>
       <div className="max-w-xl px-4 mx-auto sm:px-6 lg:max-w-7xl lg:px-8">
         <h2 className="sr-only">A better way to send money.</h2>
