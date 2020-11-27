@@ -17,15 +17,12 @@ export default function LandingHero(): JSX.Element {
                 id="f210dbf6-a58d-4871-961e-36d5016a0f49"
                 x="0"
                 y="0"
-                width="20"
-                height="20"
+                width="60"
+                height="60"
                 patternUnits="userSpaceOnUse"
               >
-                <rect
-                  x="0"
-                  y="0"
-                  width="4"
-                  height="4"
+                <path
+                  d="M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z"
                   className="text-gray-200 dark:text-gray-800"
                   fill="currentColor"
                 />
@@ -49,15 +46,12 @@ export default function LandingHero(): JSX.Element {
                 id="5d0dd344-b041-4d26-bec4-8d33ea57ec9b"
                 x="0"
                 y="0"
-                width="20"
-                height="20"
+                width="60"
+                height="60"
                 patternUnits="userSpaceOnUse"
               >
-                <rect
-                  x="0"
-                  y="0"
-                  width="4"
-                  height="4"
+                <path
+                  d="M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z"
                   className="text-gray-200 dark:text-gray-800"
                   fill="currentColor"
                 />
