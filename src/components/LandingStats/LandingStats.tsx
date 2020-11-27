@@ -1,7 +1,7 @@
 export default function LandingStats(): JSX.Element {
   return (
-    <section className="bg-white dark:bg-black">
-      <div className="px-4 py-12 mx-auto max-w-7xl sm:px-6 lg:px-8">
+    <section className="py-12 bg-white dark:bg-black">
+      <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="sm:text-left md:text-center">
           <h2 className="text-base font-semibold tracking-wide text-indigo-600 uppercase">
             Strength in numbers
