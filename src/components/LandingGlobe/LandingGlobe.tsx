@@ -7,7 +7,7 @@ export default function LandingGlobe(): JSX.Element {
   return (
     <section className="overflow-hidden bg-gray-100 dark:bg-black">
       <div className="max-w-6xl px-4 mx-auto sm:px-6">
-        <div className="py-12 md:py-20">
+        <div className="py-12 md:pb-16">
           <div className="pb-12 sm:text-left md:text-center">
             <h2 className="text-base font-semibold tracking-wide text-indigo-600 uppercase">
               Global Infrastructure
