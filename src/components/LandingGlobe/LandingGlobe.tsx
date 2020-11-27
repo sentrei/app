@@ -13,7 +13,7 @@ export default function LandingGlobe(): JSX.Element {
           </h2>
           <p className="mt-2 text-3xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-4xl dark:text-gray-200">
             Deploy{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-200 via-green-300 to-blue-500">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-300 via-red-300 to-yellow-200">
               globally{" "}
             </span>
             in seconds{" "}
