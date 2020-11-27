@@ -6,7 +6,7 @@ export default function LandingTestimonial() {
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="sm:text-left md:text-center">
           <h2 className="text-base font-semibold tracking-wide text-indigo-600 uppercase">
-            Word from the creator
+            Word from the founder
           </h2>
           <p className="mt-2 text-3xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-4xl dark:text-gray-200">
             A backend solution for the{" "}
