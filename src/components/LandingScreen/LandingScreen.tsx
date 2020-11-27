@@ -5,6 +5,7 @@ import LandingHero from "@/components/LandingHero";
 import LandingMission from "@/components/LandingMission";
 import LandingNewsletter from "@/components/LandingNewsletter";
 import LandingStats from "@/components/LandingStats";
+import LandingTestimonial from "@/components/LandingTestimonial";
 import SeoLanding from "@/components/SeoLanding";
 
 export default function LandingScreen(): JSX.Element {
@@ -13,6 +14,7 @@ export default function LandingScreen(): JSX.Element {
       <SeoLanding title="Sentrei" />
       <HeaderRoot />
       <LandingHero />
+      <LandingTestimonial />
       <LandingMission />
       <LandingGlobe />
       <LandingStats />
