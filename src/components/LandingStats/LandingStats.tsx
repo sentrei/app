@@ -25,18 +25,18 @@ export default function LandingStats(): JSX.Element {
             <dl className="rounded-lg shadow-xl sm:grid sm:grid-cols-3">
               <div className="flex flex-col p-6 text-center border-b border-gray-200 sm:border-0 sm:border-r dark:border-gray-600">
                 <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500">
-                  Edge Data Centers
+                  Database regions
                 </dt>
                 <dd className="order-1 text-5xl font-extrabold text-indigo-600">
-                  200
+                  6
                 </dd>
               </div>
               <div className="flex flex-col p-6 text-center border-t border-b border-gray-200 sm:border-0 sm:border-l sm:border-r dark:border-gray-600">
                 <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500">
-                  Delivery
+                  Edge data centers
                 </dt>
                 <dd className="order-1 text-5xl font-extrabold text-indigo-600">
-                  24/7
+                  200
                 </dd>
               </div>
               <div className="flex flex-col p-6 text-center border-t border-gray-200 sm:border-0 sm:border-l dark:border-gray-600">
