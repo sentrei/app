@@ -83,7 +83,7 @@ export default function LandingJourney() {
                   <dt className="text-lg font-medium leading-6 text-gray-900 dark:text-gray-300">
                     Built-in authentication
                   </dt>
-                  <dd className="mt-2 text-base text-gray-500">
+                  <dd className="mt-2 text-base text-gray-500 dark:text-gray-400">
                     Nothing new. All batteries included.
                   </dd>
                 </div>
@@ -105,7 +105,7 @@ export default function LandingJourney() {
                   <dt className="text-lg font-medium leading-6 text-gray-900 dark:text-gray-300">
                     Custom developing environment in the cloud
                   </dt>
-                  <dd className="mt-2 text-base text-gray-500">
+                  <dd className="mt-2 text-base text-gray-500 dark:text-gray-400">
                     Develop locally while on the cloud.
                   </dd>
                 </div>
@@ -127,7 +127,7 @@ export default function LandingJourney() {
                   <dt className="text-lg font-medium leading-6 text-gray-900 dark:text-gray-300">
                     Developer friendly interface
                   </dt>
-                  <dd className="mt-2 text-base text-gray-500">
+                  <dd className="mt-2 text-base text-gray-500 dark:text-gray-400">
                     We are obsessed with providing the best possible developer
                     experience.
                   </dd>
@@ -203,7 +203,7 @@ export default function LandingJourney() {
                     <dt className="text-lg font-medium leading-6 text-gray-900 dark:text-gray-300">
                       Custom preview domain
                     </dt>
-                    <dd className="mt-2 text-base text-gray-500">
+                    <dd className="mt-2 text-base text-gray-500 dark:text-gray-400">
                       Sweet. It&apos;s 2020. This should be the norm.
                     </dd>
                   </div>
@@ -229,7 +229,7 @@ export default function LandingJourney() {
                     <dt className="text-lg font-medium leading-6 text-gray-900 dark:text-gray-300">
                       Dedicated security features
                     </dt>
-                    <dd className="mt-2 text-base text-gray-500">
+                    <dd className="mt-2 text-base text-gray-500 dark:text-gray-400">
                       We do not comprimise with security.
                     </dd>
                   </div>
@@ -255,7 +255,7 @@ export default function LandingJourney() {
                     <dt className="text-lg font-medium leading-6 text-gray-900 dark:text-gray-300">
                       Seamless integration with CI/CD
                     </dt>
-                    <dd className="mt-2 text-base text-gray-500">
+                    <dd className="mt-2 text-base text-gray-500 dark:text-gray-400">
                       Deploy your entire backend infrastructure through code.
                     </dd>
                   </div>
@@ -296,7 +296,7 @@ export default function LandingJourney() {
                     <dt className="text-lg font-medium leading-6 text-gray-900 dark:text-gray-300">
                       Blazing fast, at scale
                     </dt>
-                    <dd className="mt-2 text-base text-gray-500">
+                    <dd className="mt-2 text-base text-gray-500 dark:text-gray-400">
                       Infinitely scalabe infrastructure from zero to beyond.
                     </dd>
                   </div>
@@ -322,7 +322,7 @@ export default function LandingJourney() {
                     <dt className="text-lg font-medium leading-6 text-gray-900 dark:text-gray-300">
                       Edge computing around the globe
                     </dt>
-                    <dd className="mt-2 text-base text-gray-500">
+                    <dd className="mt-2 text-base text-gray-500 dark:text-gray-400">
                       Deploy to the edge in over 200 data centers around the
                       world.
                     </dd>
@@ -349,7 +349,7 @@ export default function LandingJourney() {
                     <dt className="text-lg font-medium leading-6 text-gray-900 dark:text-gray-300">
                       Zero cold starts
                     </dt>
-                    <dd className="mt-2 text-base text-gray-500">
+                    <dd className="mt-2 text-base text-gray-500 dark:text-gray-400">
                       Cold starts will be a thing of the past.
                     </dd>
                   </div>

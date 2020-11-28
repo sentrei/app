@@ -12,7 +12,7 @@ export default function LandingMission(): JSX.Element {
               edge
             </span>
           </p>
-          <p className="max-w-3xl mt-4 text-xl text-gray-500 lg:mx-auto dark:text-gray-400">
+          <p className="max-w-3xl mt-4 text-xl text-gray-300 lg:mx-auto dark:text-gray-400">
             We believe the future lies in the edge. We want to provide an
             instant backend infrastructure that lives near everyone in the
             world.
@@ -45,7 +45,7 @@ export default function LandingMission(): JSX.Element {
               <dt className="text-lg font-medium leading-6 text-gray-900 dark:text-gray-300">
                 Scale infinitely
               </dt>
-              <dd className="mt-2 text-base text-gray-500">
+              <dd className="mt-2 text-base text-gray-500 dark:text-gray-400">
                 Think globally from the start. Never worry about the underlying
                 infrastructure. We take care of the rest.
               </dd>
@@ -75,7 +75,7 @@ export default function LandingMission(): JSX.Element {
               <dt className="text-lg font-medium leading-6 text-gray-900 dark:text-gray-300">
                 No hidden fees
               </dt>
-              <dd className="mt-2 text-base text-gray-500">
+              <dd className="mt-2 text-base text-gray-500 dark:text-gray-400">
                 You only get for what you use. We also provide a generous free
                 tier for all developers to try out.
               </dd>
@@ -105,7 +105,7 @@ export default function LandingMission(): JSX.Element {
               <dt className="text-lg font-medium leading-6 text-gray-900 dark:text-gray-300">
                 Blazing fast
               </dt>
-              <dd className="mt-2 text-base text-gray-500">
+              <dd className="mt-2 text-base text-gray-500 dark:text-gray-400">
                 We are obsessed with performance, for both the customer and
                 developer.
               </dd>
@@ -129,7 +129,7 @@ export default function LandingMission(): JSX.Element {
               <dt className="text-lg font-medium leading-6 text-gray-900 dark:text-gray-300">
                 Dedicated analytics
               </dt>
-              <dd className="mt-2 text-base text-gray-500">
+              <dd className="mt-2 text-base text-gray-500 dark:text-gray-400">
                 Get insight on what you use. Built-in analytics features on the
                 backend.
               </dd>
@@ -157,7 +157,7 @@ export default function LandingMission(): JSX.Element {
               <dt className="text-lg font-medium leading-6 text-gray-900 dark:text-gray-300">
                 Built-in authentication
               </dt>
-              <dd className="mt-2 text-base text-gray-500">
+              <dd className="mt-2 text-base text-gray-500 dark:text-gray-400">
                 Make use of built-in authentication system that integrates
                 seamlessly with the underlying backend infrastructure.
               </dd>
@@ -183,7 +183,7 @@ export default function LandingMission(): JSX.Element {
               <dt className="text-lg font-medium leading-6 text-gray-900 dark:text-gray-300">
                 Distributed database
               </dt>
-              <dd className="mt-2 text-base text-gray-500">
+              <dd className="mt-2 text-base text-gray-500 dark:text-gray-400">
                 We are powered by a cross region sub-second scalable database
                 with automatic failure recovery.
               </dd>

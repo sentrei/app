@@ -13,7 +13,7 @@ export default function DarkModeSwitch(): JSX.Element {
       {resolvedTheme !== undefined && (
         <svg
           className={clsx(
-            "w-10 h-10 cursor-pointer text-gray-500",
+            "w-10 h-10 cursor-pointer",
             resolvedTheme === "dark" && "text-gray-300",
             resolvedTheme === "light" && "text-gray-700"
           )}
