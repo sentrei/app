@@ -55,10 +55,10 @@ export default function LandingJourney() {
         </div>
         <div className="relative mt-12 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
           <div className="relative">
-            <h3 className="text-2xl font-extrabold tracking-tight text-gray-900 sm:text-3xl">
+            <h3 className="text-2xl font-extrabold tracking-tight text-gray-900 sm:text-3xl dark:text-gray-300">
               Develop with confidence
             </h3>
-            <p className="mt-3 text-lg text-gray-500">
+            <p className="mt-3 text-lg text-gray-500 dark:text-gray-400">
               We aim to provide the finest developer experience.
             </p>
             <dl className="mt-10 space-y-10">
@@ -80,7 +80,7 @@ export default function LandingJourney() {
                   </div>
                 </div>
                 <div className="ml-4">
-                  <dt className="text-lg font-medium leading-6 text-gray-900">
+                  <dt className="text-lg font-medium leading-6 text-gray-900 dark:text-gray-300">
                     Built-in authentication
                   </dt>
                   <dd className="mt-2 text-base text-gray-500">
@@ -102,7 +102,7 @@ export default function LandingJourney() {
                   </div>
                 </div>
                 <div className="ml-4">
-                  <dt className="text-lg font-medium leading-6 text-gray-900">
+                  <dt className="text-lg font-medium leading-6 text-gray-900 dark:text-gray-300">
                     Custom developing environment in the cloud
                   </dt>
                   <dd className="mt-2 text-base text-gray-500">
@@ -124,7 +124,7 @@ export default function LandingJourney() {
                   </div>
                 </div>
                 <div className="ml-4">
-                  <dt className="text-lg font-medium leading-6 text-gray-900">
+                  <dt className="text-lg font-medium leading-6 text-gray-900 dark:text-gray-300">
                     Developer friendly interface
                   </dt>
                   <dd className="mt-2 text-base text-gray-500">
@@ -175,10 +175,10 @@ export default function LandingJourney() {
         <div className="relative mt-12 sm:mt-16 lg:mt-24">
           <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
             <div className="lg:col-start-2">
-              <h3 className="text-2xl font-extrabold tracking-tight text-gray-900 sm:text-3xl">
+              <h3 className="text-2xl font-extrabold tracking-tight text-gray-900 sm:text-3xl dark:text-gray-300">
                 Preview on the cloud
               </h3>
-              <p className="mt-3 text-lg text-gray-500">
+              <p className="mt-3 text-lg text-gray-500 dark:text-gray-400">
                 No more hustle to manage your own preview infrastructure.
               </p>
               <dl className="mt-10 space-y-10">
@@ -200,7 +200,7 @@ export default function LandingJourney() {
                     </div>
                   </div>
                   <div className="ml-4">
-                    <dt className="text-lg font-medium leading-6 text-gray-900">
+                    <dt className="text-lg font-medium leading-6 text-gray-900 dark:text-gray-300">
                       Custom preview domain
                     </dt>
                     <dd className="mt-2 text-base text-gray-500">
@@ -226,7 +226,7 @@ export default function LandingJourney() {
                     </div>
                   </div>
                   <div className="ml-4">
-                    <dt className="text-lg font-medium leading-6 text-gray-900">
+                    <dt className="text-lg font-medium leading-6 text-gray-900 dark:text-gray-300">
                       Dedicated security features
                     </dt>
                     <dd className="mt-2 text-base text-gray-500">
@@ -252,7 +252,7 @@ export default function LandingJourney() {
                     </div>
                   </div>
                   <div className="ml-4">
-                    <dt className="text-lg font-medium leading-6 text-gray-900">
+                    <dt className="text-lg font-medium leading-6 text-gray-900 dark:text-gray-300">
                       Seamless integration with CI/CD
                     </dt>
                     <dd className="mt-2 text-base text-gray-500">
@@ -268,10 +268,10 @@ export default function LandingJourney() {
           </div>
           <div className="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
             <div className="relative">
-              <h3 className="text-2xl font-extrabold tracking-tight text-gray-900 sm:text-3xl">
+              <h3 className="text-2xl font-extrabold tracking-tight text-gray-900 sm:text-3xl dark:text-gray-300">
                 Deploy instantly around the globe
               </h3>
-              <p className="mt-3 text-lg text-gray-500">
+              <p className="mt-3 text-lg text-gray-500 dark:text-gray-400">
                 The entire infrastructure sits on the edge.
               </p>
               <dl className="mt-10 space-y-10">
@@ -293,7 +293,7 @@ export default function LandingJourney() {
                     </div>
                   </div>
                   <div className="ml-4">
-                    <dt className="text-lg font-medium leading-6 text-gray-900">
+                    <dt className="text-lg font-medium leading-6 text-gray-900 dark:text-gray-300">
                       Blazing fast, at scale
                     </dt>
                     <dd className="mt-2 text-base text-gray-500">
@@ -319,7 +319,7 @@ export default function LandingJourney() {
                     </div>
                   </div>
                   <div className="ml-4">
-                    <dt className="text-lg font-medium leading-6 text-gray-900">
+                    <dt className="text-lg font-medium leading-6 text-gray-900 dark:text-gray-300">
                       Edge computing around the globe
                     </dt>
                     <dd className="mt-2 text-base text-gray-500">
@@ -346,7 +346,7 @@ export default function LandingJourney() {
                     </div>
                   </div>
                   <div className="ml-4">
-                    <dt className="text-lg font-medium leading-6 text-gray-900">
+                    <dt className="text-lg font-medium leading-6 text-gray-900 dark:text-gray-300">
                       Zero cold starts
                     </dt>
                     <dd className="mt-2 text-base text-gray-500">
