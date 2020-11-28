@@ -12,7 +12,7 @@ export default function LandingMission(): JSX.Element {
               edge
             </span>
           </p>
-          <p className="max-w-3xl mt-4 text-xl text-gray-300 lg:mx-auto dark:text-gray-400">
+          <p className="max-w-3xl mt-4 text-xl text-gray-500 lg:mx-auto dark:text-gray-400">
             We believe the future lies in the edge. We want to provide an
             instant backend infrastructure that lives near everyone in the
             world.
