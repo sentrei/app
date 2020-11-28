@@ -84,7 +84,7 @@ export default function LandingJourney() {
                     Built-in authentication
                   </dt>
                   <dd className="mt-2 text-base text-gray-500">
-                    Nothing new. All battereies included.
+                    Nothing new. All batteries included.
                   </dd>
                 </div>
               </div>
