@@ -27,9 +27,9 @@ export default function LandingTestimonial() {
               serverless era in 2020.&rdquo;
             </p>
           </div>
-          <footer className="mt-8">
+          <div className="mt-8">
             <div className="md:flex md:items-center md:justify-center">
-              <div className="md:flex-shrink-0">
+              <div className="flex justify-center md:flex-shrink-0">
                 <Image
                   priority
                   src="/assets/logo.png"
@@ -56,7 +56,7 @@ export default function LandingTestimonial() {
                 </div>
               </div>
             </div>
-          </footer>
+          </div>
         </blockquote>
       </div>
     </section>
