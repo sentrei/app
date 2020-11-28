@@ -1,5 +1,6 @@
 import FooterRoot from "@/components/FooterRoot";
 import HeaderRoot from "@/components/HeaderRoot";
+import LandingFaq from "@/components/LandingFaq";
 import LandingGlobe from "@/components/LandingGlobe";
 import LandingHero from "@/components/LandingHero";
 import LandingJourney from "@/components/LandingJourney";
@@ -20,6 +21,7 @@ export default function LandingScreen(): JSX.Element {
       <LandingMission />
       <LandingGlobe />
       <LandingStats />
+      <LandingFaq />
       <LandingNewsletter />
       <FooterRoot />
     </>
