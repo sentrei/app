@@ -25,14 +25,16 @@ export function Accordion({
       <dt className="text-lg">
         <button
           type="button"
-          className="flex items-start justify-between w-full text-left text-gray-400"
+          className="flex items-start justify-between w-full text-left text-gray-400 dark:text-gray-200"
           aria-expanded={accordionOpen}
           onClick={(e) => {
             e.preventDefault();
             setAccordionOpen(!accordionOpen);
           }}
         >
-          <span className="font-medium text-gray-900">{title}</span>
+          <span className="font-medium text-gray-900 dark:text-gray-300">
+            {title}
+          </span>
           <span className="flex items-center ml-6 h-7">
             <svg
               className={clsx(
@@ -58,7 +60,7 @@ export function Accordion({
       </dt>
       <dd className="pr-12 mt-2 overflow-hidden">
         <p
-          className="text-base text-gray-500 transition-all duration-300 ease-in-out"
+          className="text-base text-gray-500 transition-all duration-300 ease-in-out dark:text-gray-400"
           style={
             accordionOpen
               ? { maxHeight: 90, opacity: 1 }
