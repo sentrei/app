@@ -32,12 +32,12 @@ export default function LandingTestimonial() {
               <div className="flex justify-center md:flex-shrink-0">
                 <Image
                   priority
-                  src="/assets/logo.png"
+                  src="/assets/shun.png"
                   height={48}
                   width={48}
                   layout="fixed"
                   alt="Logo"
-                  className="w-10 h-10 mx-auto rounded-full"
+                  className="inline object-cover w-12 h-12 rounded-full"
                 />
               </div>
               <div className="mt-3 text-center md:mt-0 md:ml-4 md:flex md:items-center">
