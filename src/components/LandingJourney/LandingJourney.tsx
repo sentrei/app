@@ -41,7 +41,7 @@ export default function LandingJourney() {
               Start your Sentrei journey
             </h2>
             <p className="mt-2 text-3xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-4xl dark:text-gray-200">
-              <span className="text-transparent bg-clip-text bg-gradient-to-br from-yellow-100 to-yellow-500">
+              <span className="text-transparent bg-clip-text bg-gradient-to-br from-yellow-100 via-red-300 to-yellow-400">
                 Lightspeed
               </span>{" "}
               at your fingertips
