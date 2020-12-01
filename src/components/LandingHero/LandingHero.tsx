@@ -68,8 +68,8 @@ export default function LandingHero(): JSX.Element {
       <div className="relative px-4 mx-auto mt-10 sm:px-6">
         <div className="sm:text-left md:text-center">
           <h2 className="text-4xl font-extrabold leading-10 tracking-tight text-gray-900 dark:text-gray-200 sm:text-5xl sm:leading-none md:text-6xl">
-            The all-in-one serverless <br className="hidden sm:block" /> backend
-            infrastructure <br />
+            The all-in-one serverless <br className="hidden sm:block" />{" "}
+            fullstack infrastructure <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-red-500">
               of your dreams
             </span>
