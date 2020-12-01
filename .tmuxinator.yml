@@ -1,5 +1,5 @@
-name: sentreicom
-root: ~/ghq/github.com/sentrei/sentrei.com
+name: landing
+root: ~/ghq/github.com/sentrei/landing
 attach: true
 windows:
   - zsh: neofetch
