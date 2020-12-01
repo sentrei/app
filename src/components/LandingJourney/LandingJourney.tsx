@@ -47,9 +47,9 @@ export default function LandingJourney() {
               at your fingertips
             </p>
             <p className="max-w-3xl mt-4 text-xl text-gray-500 lg:mx-auto dark:text-gray-400">
-              Deploy your entire API + database to the edge in seconds. Develop
-              locally, preview on the cloud, and deploy to production with
-              confidence. All with batteries included.
+              Deploy your entire backend + frontend to the edge in seconds.
+              Develop locally, preview on the cloud, and deploy to production
+              with confidence. All with batteries included.
             </p>
           </div>
         </div>
