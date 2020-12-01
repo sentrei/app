@@ -6,10 +6,10 @@ export default function LandingTestimonial() {
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="sm:text-left md:text-center">
           <h2 className="text-base font-semibold tracking-wide text-indigo-600 uppercase">
-            Word from the founder
+            Word from the creator
           </h2>
           <p className="mt-2 text-3xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-4xl dark:text-gray-200">
-            A backend solution for the{" "}
+            A fullstack solution for the{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-l from-blue-400 via-green-300 to-yellow-300">
               serverless era
             </span>
@@ -21,10 +21,10 @@ export default function LandingTestimonial() {
           <div className="max-w-4xl mx-auto text-center">
             <p className="text-xl font-medium leading-9 text-gray-600 dark:text-gray-400">
               &ldquo;I&apos;m personally a big fan of next.js and Vercel, and
-              what they&apos;ve pioneered with the frontend space. However,
-              looking to the backend space, I thought that developers deserved a
-              more scalable solution, tailored for edge computing in the
-              serverless era in 2020.&rdquo;
+              what they&apos;ve pioneered with the frontend space. However, as
+              the frontend and backend space gets closer together, I thought
+              that developers deserved a more scalable solution, tailored for
+              edge computing in the serverless era in 2020.&rdquo;
             </p>
           </div>
           <div className="mt-8">
