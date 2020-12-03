@@ -106,7 +106,7 @@ export default function LandingDemo(): JSX.Element {
               </div>
             </div>
             <div
-              className="w-full overflow-hidden bg-white h-80 sm:h-96 md:h-128 dark:bg-gray-900"
+              className="w-full overflow-hidden bg-white h-96 dark:bg-gray-900"
               title="Demo website"
             >
               <LandingDemoWindow />
