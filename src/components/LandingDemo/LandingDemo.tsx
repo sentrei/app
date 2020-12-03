@@ -1,3 +1,5 @@
+import LandingDemoWindow from "@/components/LandingDemoWindow";
+
 export default function LandingDemo(): JSX.Element {
   return (
     <section className="relative">
@@ -103,10 +105,12 @@ export default function LandingDemo(): JSX.Element {
                 </div>
               </div>
             </div>
-            <iframe
+            <div
               className="w-full overflow-hidden bg-white h-80 sm:h-96 md:h-128 dark:bg-gray-900"
               title="Demo website"
-            />
+            >
+              <LandingDemoWindow />
+            </div>
           </div>
         </div>
       </div>
