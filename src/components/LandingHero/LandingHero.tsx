@@ -69,7 +69,7 @@ export default function LandingHero(): JSX.Element {
         <div className="sm:text-left md:text-center">
           <h2 className="text-4xl font-extrabold leading-10 tracking-tight text-gray-900 dark:text-gray-200 sm:text-5xl sm:leading-none md:text-6xl">
             Instantly deploy <br className="hidden sm:block" /> your entire
-            stack
+            codebase
             <br />
             to the{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-red-500">
