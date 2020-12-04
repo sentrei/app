@@ -266,7 +266,7 @@ export default function LandingJourney() {
             </div>
             <div className="relative mt-10 -mx-4 lg:mt-0 lg:col-start-1">
               {/* Section 2 */}
-              <div className="w-4/5 transition duration-300 ease-in-out transform bg-white rounded-lg shadow-lg dark:bg-gray-900 hover:shadow-2xl hover:-translate-y-3">
+              <div className="w-4/5 mx-auto transition duration-300 ease-in-out transform bg-white rounded-lg shadow-lg dark:bg-gray-900 hover:shadow-2xl hover:-translate-y-3 lg:mx-0">
                 <div className="px-4 py-3 border-b border-gray-200 sm:px-6 dark:border-gray-400">
                   <h3 className="font-medium leading-6 text-gray-900 text-md dark:text-gray-100">
                     Sentrei{" "}
