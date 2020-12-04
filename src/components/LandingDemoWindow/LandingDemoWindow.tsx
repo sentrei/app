@@ -325,7 +325,7 @@ export default function LandingDemoWindow() {
                       <span aria-hidden="true">&middot;</span>
                       <span>Last deploy 3h ago</span>
                       <span aria-hidden="true">&middot;</span>
-                      <span>United states</span>
+                      <span>Japan</span>
                     </p>
                   </div>
                 </div>
