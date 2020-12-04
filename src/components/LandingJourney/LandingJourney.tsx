@@ -266,6 +266,59 @@ export default function LandingJourney() {
             </div>
             <div className="relative mt-10 -mx-4 lg:mt-0 lg:col-start-1">
               {/* Section 2 */}
+              <div className="w-4/5 transition duration-300 ease-in-out transform bg-white rounded-lg shadow-lg hover:shadow-2xl hover:-translate-y-3">
+                <div className="px-4 py-3 border-b border-gray-200 sm:px-6">
+                  <h3 className="font-medium leading-6 text-gray-900 text-md">
+                    Sentrei{" "}
+                    <span className="inline-flex px-2 py-1 text-xs tracking-tight text-black bg-gray-300 rounded-md">
+                      bot
+                    </span>{" "}
+                    <span className="text-sm font-medium tracking-tight text-gray-500">
+                      commented 30 minutes ago
+                    </span>
+                  </h3>
+                </div>
+                <div className="px-5 py-5 text-sm tracking-tight text-gray-700">
+                  <div className="tracking-tight">
+                    This pull request is being automatically deployed with
+                    Sentrei. To see the status of your deployment, click below:
+                  </div>
+                  <div className="mt-3 leading-relaxed text-black">
+                    <span
+                      className="text-sm tracking-tight"
+                      role="img"
+                      aria-label="inspect"
+                    >
+                      🔍 <b className="font-bold text-black">Inspect: </b>
+                      <span className="text-blue-600 underline">
+                        https://sentrei.com/shunkakinoki/website/krgj1n5
+                      </span>
+                    </span>
+                    <br />
+                    <span
+                      className="text-sm tracking-tight"
+                      role="img"
+                      aria-label="frontend"
+                    >
+                      💅 <b className="font-bold text-black">Frontend: </b>
+                      <span className="text-blue-600 underline">
+                        https://awesome-new-feature.sentrei.app
+                      </span>
+                    </span>
+                    <br />
+                    <span
+                      className="text-sm tracking-tight"
+                      role="img"
+                      aria-label="backend"
+                    >
+                      📊 <b className="font-bold text-black">Backend: </b>
+                      <span className="text-blue-600 underline">
+                        https://preview.sentrei.app
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <div className="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
