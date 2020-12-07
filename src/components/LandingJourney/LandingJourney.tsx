@@ -60,7 +60,9 @@ export default function LandingJourney() {
               Develop with confidence
             </h3>
             <p className="mt-3 text-lg text-gray-500 dark:text-gray-400">
-              We aim to provide the finest developer experience.
+              We aim to provide the finest developer experience. We provide a
+              dedicated dev environment in the cloud, so that everything is
+              managed perfectly. Transition seamlessly from dev to prod.
             </p>
             <dl className="mt-10 space-y-10">
               <div className="flex">
@@ -201,7 +203,9 @@ export default function LandingJourney() {
                 Preview on the cloud
               </h3>
               <p className="mt-3 text-lg text-gray-500 dark:text-gray-400">
-                No more hustle to manage your own preview infrastructure.
+                No more hustle to manage your own preview environment. Integrate
+                seamlessly with your development flow that follows your best
+                practices. Develop blazing fast, like 2020.
               </p>
               <dl className="mt-10 space-y-10">
                 <div className="flex">
@@ -356,7 +360,9 @@ export default function LandingJourney() {
                 Deploy instantly around the globe
               </h3>
               <p className="mt-3 text-lg text-gray-500 dark:text-gray-400">
-                The entire infrastructure sits on the edge.
+                The entire infrastructure sits on the edge. The database and
+                serverless functions are distributed accross data centers all
+                accross the globe, working like magic near your customers.
               </p>
               <dl className="mt-10 space-y-10">
                 <div className="flex">
