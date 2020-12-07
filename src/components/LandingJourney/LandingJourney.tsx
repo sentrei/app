@@ -362,7 +362,7 @@ export default function LandingJourney() {
               <p className="mt-3 text-lg text-gray-500 dark:text-gray-400">
                 The entire infrastructure sits on the edge. The database and
                 serverless functions are distributed accross data centers all
-                accross the globe, working like magic near your customers.
+                accross the globe. To put it simply, it works like magic.
               </p>
               <dl className="mt-10 space-y-10">
                 <div className="flex">
