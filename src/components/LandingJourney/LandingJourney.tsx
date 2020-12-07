@@ -140,7 +140,7 @@ export default function LandingJourney() {
           </div>
           <div className="relative mt-10 -mx-4 lg:mt-0" aria-hidden="true">
             <div className="w-4/5 mx-auto transition duration-300 ease-in-out transform bg-gray-600 rounded-md shadow-lg dark:bg-gray-900 hover:shadow-2xl hover:-translate-y-3 lg:mx-0">
-              <div className="px-4 py-3 border-b border-gray-200 sm:px-6 dark:border-gray-400">
+              <div className="px-4 py-3 sm:px-6">
                 <p className="font-medium leading-6 text-gray-300 text-md dark:text-gray-500">
                   # Install sentrei, and login to your account
                 </p>
