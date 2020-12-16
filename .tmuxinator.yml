@@ -1,0 +1,7 @@
+name: landing
+root: ~/ghq/github.com/sentrei/landing
+attach: true
+windows:
+  - zsh: neofetch
+  - zsh: neofetch
+  - zsh: neofetch
