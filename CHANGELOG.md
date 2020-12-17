@@ -1,3 +1,9 @@
+# [1.2.0](https://github.com/sentrei/sentrei.com/compare/v1.1.0...v1.2.0) (2020-12-17)
+
+### Features
+
+- 🎸 revamp env var ([0aa7cb6](https://github.com/sentrei/sentrei.com/commit/0aa7cb6cf179d16b6be4f2262b88628327f3d6fe))
+
 # [1.1.0](https://github.com/sentrei/sentrei.com/compare/v1.0.0...v1.1.0) (2020-12-17)
 
 ### Features
