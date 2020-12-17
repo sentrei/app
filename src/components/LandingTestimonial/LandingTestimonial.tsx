@@ -9,7 +9,7 @@ export default function LandingTestimonial() {
             Word from the creator
           </h2>
           <p className="mt-2 text-3xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-4xl dark:text-gray-200">
-            A fullstack solution for the{" "}
+            An all-in-one backend solution for the{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-l from-blue-400 via-green-300 to-yellow-300">
               serverless era
             </span>
