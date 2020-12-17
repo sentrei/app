@@ -1,3 +1,9 @@
+# [1.1.0](https://github.com/sentrei/sentrei.com/compare/v1.0.0...v1.1.0) (2020-12-17)
+
+### Features
+
+- 🎸 ini segment analytics ([403f7fa](https://github.com/sentrei/sentrei.com/commit/403f7fae5264cdfe83f35f65247159810285fae2))
+
 # 1.0.0 (2020-12-16)
 
 ### Features
