@@ -1,3 +1,9 @@
+## [1.2.1](https://github.com/sentrei/sentrei.com/compare/v1.2.0...v1.2.1) (2020-12-17)
+
+### Performance Improvements
+
+- ⚡️ refactor backend wording ([68ce9a5](https://github.com/sentrei/sentrei.com/commit/68ce9a53e7ee5e7c7cd8a053ba33523481a766ad))
+
 # [1.2.0](https://github.com/sentrei/sentrei.com/compare/v1.1.0...v1.2.0) (2020-12-17)
 
 ### Features
