@@ -71,7 +71,7 @@ export default function LandingHero(): JSX.Element {
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-red-500">
               Build apps fast.
             </span>
-            Jamstack backend <br className="hidden sm:block" /> on
+            <br />Jamstack backend <br className="hidden sm:block" /> on
             the edge. <br /> 
           </h2>
           <p className="mt-3 text-base text-gray-500 sm:mt-6 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-8 md:text-xl md:max-w-3xl lg:max-w-4xl dark:text-gray-300">
