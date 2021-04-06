@@ -81,11 +81,7 @@ export default function LandingHero(): JSX.Element {
             </span>{" "}
             on top of the global database infrastructure.
             <br className="hidden lg:block" /> We abstract away the boilerplate
-            to provide the best{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500">
-              developer experience
-            </span>
-            .
+            to provide the best developer experience.
             <br className="hidden lg:block" /> We aim to do much better, how
             developers deserve in{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400">
