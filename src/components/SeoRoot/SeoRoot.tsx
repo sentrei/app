@@ -6,9 +6,9 @@ export default function SeoRoot(): JSX.Element {
     <DefaultSeo
       noindex={false}
       nofollow={false}
-      title="The most delightful writing platform."
+      title="Build apps fast."
       titleTemplate="Sentrei | %s"
-      description="The most delightful writing platform."
+      description="Jamstack backend on the edge."
       openGraph={{
         images: [
           {
