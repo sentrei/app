@@ -14,7 +14,7 @@ export default function SeoRoot(): JSX.Element {
           {
             alt: "Sentrei Logo Image",
             height: 500,
-            url: "https://www.sentrei.com/logo.png",
+            url: "https://www.sentrei.com/assets/logo.png",
             width: 500,
           },
         ],
