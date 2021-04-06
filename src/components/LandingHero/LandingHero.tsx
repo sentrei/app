@@ -89,7 +89,7 @@ export default function LandingHero(): JSX.Element {
             <br className="hidden lg:block" /> We aim to do much better, how
             developers deserve in{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400">
-              2020
+              2021
             </span>
             .
           </p>
