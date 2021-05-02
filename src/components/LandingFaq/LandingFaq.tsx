@@ -91,7 +91,7 @@ export default function LandingFaq() {
         </div>
         <dl className="max-w-3xl mx-auto space-y-6 divide-y divide-gray-200">
           <Accordion title="When will you begin beta testing?">
-            We are currently targeting for March 2021! Subscribe to the
+            We are currently targeting for end of 2021! Subscribe to the
             newsletter for further information!
           </Accordion>
           <Accordion title="Will Sentrei be open source?">
