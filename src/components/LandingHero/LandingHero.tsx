@@ -90,19 +90,6 @@ export default function LandingHero(): JSX.Element {
             .
           </p>
         </div>
-        <div className="max-w-lg mx-auto mt-8 text-center">
-          <p className="text-base font-medium text-gray-900 dark:text-gray-400">
-            Sign up to get notified when it’s ready.
-          </p>
-          <LandingHeroForm />
-          {/* <p className="mt-3 text-sm text-gray-500">
-            We care about the protection of your data. Read our{" "}
-            <a href="#" className="font-medium text-gray-900 underline">
-              Privacy Policy
-            </a>
-            .
-          </p> */}
-        </div>
       </div>
     </section>
   );
