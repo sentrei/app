@@ -26,7 +26,6 @@ export default function LandingScreen(): JSX.Element {
       <LandingGlobe />
       <LandingStats />
       <LandingFaq />
-      <LandingNewsletter />
       <FooterRoot />
     </>
   );
