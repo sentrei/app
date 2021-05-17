@@ -11,8 +11,10 @@ export default function LandingNewsletter(): JSX.Element {
 
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
+    // eslint-disable-next-line no-console
     console.log(email);
     if (email) {
+      // eslint-disable-next-line @typescript-eslint/no-floating-promises
       postNewsletter(email);
     }
   };
