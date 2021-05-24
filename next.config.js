@@ -1,7 +1,7 @@
 const { BLOG_URL } = process.env
 
 module.exports = {
-  async rewrites() {
+  async redirects() {
     return [
       {
         source: '/:path*',
