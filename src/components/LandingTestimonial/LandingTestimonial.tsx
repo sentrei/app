@@ -42,7 +42,7 @@ export default function LandingTestimonial() {
               </div>
               <div className="mt-3 text-center md:mt-0 md:ml-4 md:flex md:items-center">
                 <div className="text-base font-medium text-gray-900 dark:text-gray-300">
-                  Shun Kakinoki
+                  Sentrei
                 </div>
                 <svg
                   className="hidden w-5 h-5 mx-1 text-indigo-600 md:block"
