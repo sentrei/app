@@ -128,7 +128,7 @@ export default function LandingDemoWindow() {
                       </div>
                       <div className="space-y-1">
                         <div className="text-sm font-medium text-gray-900 dark:text-gray-100">
-                          Shun Kakinoki
+                          Sentrei Developer
                         </div>
                         <span className="group flex items-center space-x-2.5">
                           <svg
@@ -144,7 +144,7 @@ export default function LandingDemoWindow() {
                             />
                           </svg>
                           <span className="text-sm font-medium text-gray-500 group-hover:text-gray-900 dark:text-gray-300 dark:group-hover:text-gray-600">
-                            shunkakinoki
+                            Sentrei Developer
                           </span>
                         </span>
                       </div>
@@ -280,7 +280,7 @@ export default function LandingDemoWindow() {
                         />
                       </svg>
                       <span className="text-sm font-medium text-gray-500 truncate group-hover:text-gray-900 dark:text-gray-300 dark:group-hover:text-gray-500">
-                        shunkakinoki/sentrei
+                        sentrei/sentrei
                       </span>
                     </span>
                   </div>
